@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-form">
+        <h2>Login</h2>
+        <form id="form">
+            <div class="form-field-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required class="block">
+                <div id="usernameError" class="error-message"></div>
+            </div>
+
+            <div class="form-field-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required class="block">
+                <div id="passwordError" class="error-message"></div>
+            </div>
+
+            <button type="submit" class="form-submit-button">
+                Register
+            </button>
+        </form>
+        <br><br>
+        <div class="text">
+            <a href="index.html">Register here</a>
+        </div>
+    </div>
+    <script src="./assets/javascript/login.js"></script>
+</body>
+</html>
